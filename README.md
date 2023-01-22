@@ -1,6 +1,6 @@
-# Han Count
+# Han Count<img src="HanCount/Assets.xcassets/AppIcon.appiconset/AppIcon.256@2x.png" width="192" align="right" title="App Icon: Han CountER">
 
-This app counts the number of Han characters in a font which are contained by Unicode blocks and Chinese encoding standards. It is the Mac version of [CJK-character-count](//github.com/NightFurySL2001/CJK-character-count), and rewritten with native APIs.
+This app counts the number of Han characters in a font which are contained by Unicode blocks and Chinese encoding standards. It is the Mac version of [CJK-character-count](//github.com/NightFurySL2001/CJK-character-count), rewritten with native APIs.
 
 ## Supported font formats
 
@@ -42,3 +42,8 @@ A record is a dictionary with three entries:
 ## Known issues
 
 - High plane characters may not work well on platforms where `CFIndex` is 32-bit-wide.
+
+## Screenshots
+
+<img src=".images/screenshot.hans.png" width="824">
+<img src=".images/screenshot.en.png" width="734">

@@ -1,0 +1,73 @@
+/*
+ *  Localizable.strings
+ *
+ *  Created by alpha on 2023/1/22.
+ *  Copyright © 2023 alphaArgon.
+ */
+
+
+"app-name"          = "漢字計數";
+
+"menu-about-app"    = "關於漢字計數";
+"menu-services"     = "服務";
+"menu-hide-app"     = "隱藏漢字計數";
+"menu-hide-others"  = "隱藏其他";
+"menu-show-all"     = "顯示全部";
+"menu-quit-app"     = "結束漢字計數";
+"menu-file"         = "檔案";
+"menu-open"         = "打開⋯";
+"menu-close"        = "關閉";
+"menu-windows"      = "視窗";
+"menu-minimize"     = "縮到最小";
+"menu-zoom"         = "縮放";
+"menu-help"         = "幫助";
+"menu-app-help"     = "漢字計數幫助";
+
+"file-label"        = "字型檔：";
+"open-button"       = "打開…";
+"bad-file-$1"       = "無法打開檔案「$1」。";
+"bad-file-help"     = "它可能已損壞，或者使用了電腦不能識別的字體格式。";
+
+"code-point-set-gbk"                    = "GBK";
+"code-point-set-gb18030-2022-l2"        = "GB 18030–2022（級別 2）";
+"code-point-set-iicore"                 = "國際表意文字核心 (IICore)";
+"code-point-set-founder"                = "方正字庫 JF 標準";
+"code-point-set-hanyi"                  = "漢儀字庫 W 標準";
+
+"code-point-set-gb2312"                 = "GB/T 2312";
+"code-point-set-general-standard"       = "通用規範漢字表";
+"code-point-set-cn-frequently-used"     = "現代漢語常用字表";
+"code-point-set-cn-commonly-used"       = "現代漢語通用字表";
+"code-point-set-cn-education"           = "義務教育語文課程常用字表";
+
+"code-point-set-big5"                   = "大五碼 (BIG5)";
+"code-point-set-big5-common"            = "大五碼常用漢字表";
+"code-point-set-tw-common"              = "常用國字標準字體表";
+"code-point-set-tw-subcommon"           = "次常用國字標準字體表";
+"code-point-set-hk-commonly-used"       = "常用字字形表（香港）";
+"code-point-set-hkscs"                  = "香港增補字符集 (HKSCS)";
+"code-point-set-suppchara"              = "常用香港外字表（1–6級）";
+"code-point-set-gb12345"                = "GB/T 12345";
+
+"code-point-set-kangxi-radicals"        = "康熙部首";
+"code-point-set-cjk-radicals-supp"      = "中日韓漢字部首補充";
+"code-point-set-cjk-unified-and-zero"   = "中日韓統一表意文字與表意數字零";
+"code-point-set-cjk-unified-ext-a"      = "中日韓統一表意文字擴充 A";
+"code-point-set-cjk-unified-ext-b"      = "中日韓統一表意文字擴充 B";
+"code-point-set-cjk-unified-ext-c"      = "中日韓統一表意文字擴充 C";
+"code-point-set-cjk-unified-ext-d"      = "中日韓統一表意文字擴充 D";
+"code-point-set-cjk-unified-ext-e"      = "中日韓統一表意文字擴充 E";
+"code-point-set-cjk-unified-ext-f"      = "中日韓統一表意文字擴充 F";
+"code-point-set-cjk-unified-ext-g"      = "中日韓統一表意文字擴充 G";
+"code-point-set-cjk-unified-ext-h"      = "中日韓統一表意文字擴充 H";
+"code-point-set-cjk-compatibility"      = "中日韓相容表意文字";
+"code-point-set-cjk-compatibility-supp" = "中日韓相容表意文字增補";
+"code-point-set-non-compatibility"      = "\t非相容（統一）表意文字";
+
+"code-point-set-all-han"                = "所有中日韓表意文字";
+
+"code-point-set-group-chinese"              = "中文";
+"code-point-set-group-simplified-chinese"   = "簡體中文";
+"code-point-set-group-traditional-chinese"  = "繁體中文";
+"code-point-set-group-unicode"              = "UNICODE 區塊";
+"code-point-set-group-summary"              = "總計";

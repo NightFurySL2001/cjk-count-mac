@@ -1,0 +1,73 @@
+/* 
+ *  Localizable.strings
+ *
+ *  Created by alpha on 2023/1/19.
+ *  Copyright © 2023 alphaArgon.
+ */
+
+
+"app-name"          = "Han Count";
+
+"menu-about-app"    = "About Han Count";
+"menu-services"     = "Services";
+"menu-hide-app"     = "Hide Han Count";
+"menu-hide-others"  = "Hide Others";
+"menu-show-all"     = "Show All";
+"menu-quit-app"     = "Quit Han Count";
+"menu-file"         = "File";
+"menu-open"         = "Open…";
+"menu-close"        = "Close";
+"menu-windows"      = "Windows";
+"menu-minimize"     = "Minimize";
+"menu-zoom"         = "Zoom";
+"menu-help"         = "Help";
+"menu-app-help"     = "Han Count Help";
+
+"file-label"        = "Font File:";
+"open-button"       = "Open…";
+"bad-file-$1"       = "The file “$1” can’t be opened.";
+"bad-file-help"     = "It may be damaged or use a font format that the computer doesn’t recognize.";
+
+"code-point-set-gbk"                    = "GBK";
+"code-point-set-gb18030-2022-l2"        = "GB 18030–2022 (Level 2)";
+"code-point-set-iicore"                 = "International Ideographs Core (IICore)";
+"code-point-set-founder"                = "FounderType JF Standard";
+"code-point-set-hanyi"                  = "Hanyi Fonts W Standard";
+
+"code-point-set-gb2312"                 = "GB/T 2312";
+"code-point-set-general-standard"       = "Table of General Standard Chinese Characters";
+"code-point-set-cn-frequently-used"     = "List of Frequently Used Characters in Modern Chinese";
+"code-point-set-cn-commonly-used"       = "List of Commonly Used Characters in Modern Chinese";
+"code-point-set-cn-education"           = "List of Frequently Used Characters of Compulsory Education";
+
+"code-point-set-big5"                   = "BIG5";
+"code-point-set-big5-common"            = "BIG5 Common Character Set";
+"code-point-set-tw-common"              = "Chart of Standard Forms of Common National Characters";
+"code-point-set-tw-subcommon"           = "Chart of Standard Forms of Less-than-Common National Characters";
+"code-point-set-hk-commonly-used"       = "List of Graphemes of Commonly-Used Chinese Characters (Hong Kong)";
+"code-point-set-hkscs"                  = "Hong Kong Supplementary Character Set (HKSCS)";
+"code-point-set-suppchara"              = "Common Supplementary Characters in Hong Kong (Level 1–6)";
+"code-point-set-gb12345"                = "GB/T 12345";
+
+"code-point-set-kangxi-radicals"        = "Kangxi Radicals";
+"code-point-set-cjk-radicals-supp"      = "CJK Radicals Supplements";
+"code-point-set-cjk-unified-and-zero"   = "CJK Unified Ideographs and Ideographic Number Zero";
+"code-point-set-cjk-unified-ext-a"      = "CJK Unified Ideographs Extension A";
+"code-point-set-cjk-unified-ext-b"      = "CJK Unified Ideographs Extension B";
+"code-point-set-cjk-unified-ext-c"      = "CJK Unified Ideographs Extension C";
+"code-point-set-cjk-unified-ext-d"      = "CJK Unified Ideographs Extension D";
+"code-point-set-cjk-unified-ext-e"      = "CJK Unified Ideographs Extension E";
+"code-point-set-cjk-unified-ext-f"      = "CJK Unified Ideographs Extension F";
+"code-point-set-cjk-unified-ext-g"      = "CJK Unified Ideographs Extension G";
+"code-point-set-cjk-unified-ext-h"      = "CJK Unified Ideographs Extension H";
+"code-point-set-cjk-compatibility"      = "CJK Compatibility Ideographs";
+"code-point-set-cjk-compatibility-supp" = "CJK Compatibility Ideographs Supplement";
+"code-point-set-non-compatibility"      = "\tNon-Compatibility (Unified) Ideographs";
+
+"code-point-set-all-han"                = "All CJK Ideographs";
+
+"code-point-set-group-chinese"              = "CHINESE";
+"code-point-set-group-simplified-chinese"   = "SIMPLIFIED CHINESE";
+"code-point-set-group-traditional-chinese"  = "TRADITIONAL CHINESE";
+"code-point-set-group-unicode"              = "UNICODE BLOCKS";
+"code-point-set-group-summary"              = "SUMMARY";

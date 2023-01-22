@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE857B47296D9CF700B93B7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE857B46296D9CF700B93B7F /* AppDelegate.m */; };
+		DE857B4C296D9CFD00B93B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE857B4B296D9CFD00B93B7F /* Assets.xcassets */; };
+		DE857B52296D9CFD00B93B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE857B51296D9CFD00B93B7F /* main.m */; };
+		DE857B63296D9E3600B93B7F /* InfoRow.m in Sources */ = {isa = PBXBuildFile; fileRef = DE857B62296D9E3600B93B7F /* InfoRow.m */; };
+		DE857B77296DA63B00B93B7F /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DE857B76296DA63B00B93B7F /* Utils.m */; };
+		DE857B80296DAF4000B93B7F /* InfoPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE857B7F296DAF4000B93B7F /* InfoPanel.m */; };
+		DE857B89296DB75300B93B7F /* CodePointSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DE857B88296DB75300B93B7F /* CodePointSet.m */; };
+		DE857B91296DCFEC00B93B7F /* CodePointSets.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE857B90296DCFEC00B93B7F /* CodePointSets.plist */; };
+		DE857BA22970742700B93B7F /* HanCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE857BA12970742700B93B7F /* HanCountTests.m */; };
+		DEDB2D22297D3464003FB08E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEDB2D24297D3464003FB08E /* Localizable.strings */; };
+		DEDB2D31297D3AD4003FB08E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEDB2D33297D3AD4003FB08E /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE857BA42970742700B93B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9C72522517B17F003D66B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE857B42296D9CF700B93B7F;
+			remoteInfo = HanCount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE857B43296D9CF700B93B7F /* HanCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE857B45296D9CF700B93B7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE857B46296D9CF700B93B7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE857B4B296D9CFD00B93B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE857B50296D9CFD00B93B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE857B51296D9CFD00B93B7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE857B53296D9CFD00B93B7F /* HanCount.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HanCount.entitlements; sourceTree = "<group>"; };
+		DE857B61296D9E3600B93B7F /* InfoRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoRow.h; sourceTree = "<group>"; };
+		DE857B62296D9E3600B93B7F /* InfoRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoRow.m; sourceTree = "<group>"; };
+		DE857B75296DA5FE00B93B7F /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		DE857B76296DA63B00B93B7F /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		DE857B7E296DAF4000B93B7F /* InfoPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoPanel.h; sourceTree = "<group>"; };
+		DE857B7F296DAF4000B93B7F /* InfoPanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoPanel.m; sourceTree = "<group>"; };
+		DE857B87296DB75300B93B7F /* CodePointSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodePointSet.h; sourceTree = "<group>"; };
+		DE857B88296DB75300B93B7F /* CodePointSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodePointSet.m; sourceTree = "<group>"; };
+		DE857B90296DCFEC00B93B7F /* CodePointSets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CodePointSets.plist; sourceTree = "<group>"; };
+		DE857B9F2970742600B93B7F /* HanCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE857BA12970742700B93B7F /* HanCountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HanCountTests.m; sourceTree = "<group>"; };
+		DE857BA32970742700B93B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE857C072976F6E700B93B7F /* CodePointSets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CodePointSets.json; sourceTree = "<group>"; };
+		DEDB2D28297D347F003FB08E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DEDB2D29297D3493003FB08E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DEDB2D2A297D3495003FB08E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DEDB2D32297D3AD4003FB08E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEDB2D36297D3AD8003FB08E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DEDB2D37297D3AD9003FB08E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE857B40296D9CF700B93B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE857B9C2970742600B93B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE857B44296D9CF700B93B7F /* HanCount */ = {
+			isa = PBXGroup;
+			children = (
+				DE857B60296D9DB300B93B7F /* includes */,
+				DE857B51296D9CFD00B93B7F /* main.m */,
+				DE857B46296D9CF700B93B7F /* AppDelegate.m */,
+				DE857B7F296DAF4000B93B7F /* InfoPanel.m */,
+				DE857B62296D9E3600B93B7F /* InfoRow.m */,
+				DE857B88296DB75300B93B7F /* CodePointSet.m */,
+				DE857B76296DA63B00B93B7F /* Utils.m */,
+				DE857C072976F6E700B93B7F /* CodePointSets.json */,
+				DE857B90296DCFEC00B93B7F /* CodePointSets.plist */,
+				DE857B50296D9CFD00B93B7F /* Info.plist */,
+				DEDB2D33297D3AD4003FB08E /* InfoPlist.strings */,
+				DEDB2D24297D3464003FB08E /* Localizable.strings */,
+				DE857B4B296D9CFD00B93B7F /* Assets.xcassets */,
+				DE857B53296D9CFD00B93B7F /* HanCount.entitlements */,
+			);
+			path = HanCount;
+			sourceTree = "<group>";
+		};
+		DE857B60296D9DB300B93B7F /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				DE857B45296D9CF700B93B7F /* AppDelegate.h */,
+				DE857B7E296DAF4000B93B7F /* InfoPanel.h */,
+				DE857B61296D9E3600B93B7F /* InfoRow.h */,
+				DE857B87296DB75300B93B7F /* CodePointSet.h */,
+				DE857B75296DA5FE00B93B7F /* Utils.h */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		DE857BA02970742700B93B7F /* HanCountTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE857BA12970742700B93B7F /* HanCountTests.m */,
+				DE857BA32970742700B93B7F /* Info.plist */,
+			);
+			path = HanCountTests;
+			sourceTree = "<group>";
+		};
+		DE9C72512517B17F003D66B6 = {
+			isa = PBXGroup;
+			children = (
+				DE857B44296D9CF700B93B7F /* HanCount */,
+				DE857BA02970742700B93B7F /* HanCountTests */,
+				DE9C725B2517B17F003D66B6 /* Products */,
+			);
+			sourceTree = "<group>";
+			tabWidth = 5;
+		};
+		DE9C725B2517B17F003D66B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE857B43296D9CF700B93B7F /* HanCount.app */,
+				DE857B9F2970742600B93B7F /* HanCountTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE857B42296D9CF700B93B7F /* HanCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE857B54296D9CFD00B93B7F /* Build configuration list for PBXNativeTarget "HanCount" */;
+			buildPhases = (
+				DE857B3F296D9CF700B93B7F /* Sources */,
+				DE857B40296D9CF700B93B7F /* Frameworks */,
+				DE857B41296D9CF700B93B7F /* Resources */,
+				DE857BD22974540000B93B7F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanCount;
+			productName = HanCount;
+			productReference = DE857B43296D9CF700B93B7F /* HanCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE857B9E2970742600B93B7F /* HanCountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE857BA62970742700B93B7F /* Build configuration list for PBXNativeTarget "HanCountTests" */;
+			buildPhases = (
+				DE857B9B2970742600B93B7F /* Sources */,
+				DE857B9C2970742600B93B7F /* Frameworks */,
+				DE857B9D2970742600B93B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE857BA52970742700B93B7F /* PBXTargetDependency */,
+			);
+			name = HanCountTests;
+			productName = HanCountTests;
+			productReference = DE857B9F2970742600B93B7F /* HanCountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9C72522517B17F003D66B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = alphaArgon;
+				TargetAttributes = {
+					DE857B42296D9CF700B93B7F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DE857B9E2970742600B93B7F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DE857B42296D9CF700B93B7F;
+					};
+				};
+			};
+			buildConfigurationList = DE9C72552517B17F003D66B6 /* Build configuration list for PBXProject "HanCount" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = DE9C72512517B17F003D66B6;
+			productRefGroup = DE9C725B2517B17F003D66B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE857B42296D9CF700B93B7F /* HanCount */,
+				DE857B9E2970742600B93B7F /* HanCountTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE857B41296D9CF700B93B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE857B4C296D9CFD00B93B7F /* Assets.xcassets in Resources */,
+				DEDB2D31297D3AD4003FB08E /* InfoPlist.strings in Resources */,
+				DE857B91296DCFEC00B93B7F /* CodePointSets.plist in Resources */,
+				DEDB2D22297D3464003FB08E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE857B9D2970742600B93B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE857BD22974540000B93B7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${SRCROOT}/HanCount\"\nplutil -convert binary1 ./CodePointSets.json -o ./CodePointSets.plist\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE857B3F296D9CF700B93B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE857B63296D9E3600B93B7F /* InfoRow.m in Sources */,
+				DE857B89296DB75300B93B7F /* CodePointSet.m in Sources */,
+				DE857B80296DAF4000B93B7F /* InfoPanel.m in Sources */,
+				DE857B52296D9CFD00B93B7F /* main.m in Sources */,
+				DE857B77296DA63B00B93B7F /* Utils.m in Sources */,
+				DE857B47296D9CF700B93B7F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE857B9B2970742600B93B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE857BA22970742700B93B7F /* HanCountTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE857BA52970742700B93B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE857B42296D9CF700B93B7F /* HanCount */;
+			targetProxy = DE857BA42970742700B93B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEDB2D24297D3464003FB08E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB2D28297D347F003FB08E /* en */,
+				DEDB2D29297D3493003FB08E /* zh-Hans */,
+				DEDB2D2A297D3495003FB08E /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DEDB2D33297D3AD4003FB08E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB2D32297D3AD4003FB08E /* en */,
+				DEDB2D36297D3AD8003FB08E /* zh-Hans */,
+				DEDB2D37297D3AD9003FB08E /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE857B55296D9CFD00B93B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HanCount/HanCount.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HanCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = red.argon.HanCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE857B56296D9CFD00B93B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HanCount/HanCount.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HanCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = red.argon.HanCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE857BA72970742700B93B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HanCountTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = red.argon.HanCountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanCount.app/Contents/MacOS/HanCount";
+			};
+			name = Debug;
+		};
+		DE857BA82970742700B93B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HanCountTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = red.argon.HanCountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanCount.app/Contents/MacOS/HanCount";
+			};
+			name = Release;
+		};
+		DE9C72682517B181003D66B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE9C72692517B181003D66B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE857B54296D9CFD00B93B7F /* Build configuration list for PBXNativeTarget "HanCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE857B55296D9CFD00B93B7F /* Debug */,
+				DE857B56296D9CFD00B93B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE857BA62970742700B93B7F /* Build configuration list for PBXNativeTarget "HanCountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE857BA72970742700B93B7F /* Debug */,
+				DE857BA82970742700B93B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9C72552517B17F003D66B6 /* Build configuration list for PBXProject "HanCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9C72682517B181003D66B6 /* Debug */,
+				DE9C72692517B181003D66B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE9C72522517B17F003D66B6 /* Project object */;
+}

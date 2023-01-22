@@ -1,0 +1,10 @@
+/* 
+ *  InfoPlist.strings
+ *
+ *  Created by alpha on 2023/1/22.
+ *  Copyright © 2023 alphaArgon.
+ */
+
+
+CFBundleName = "Han Count";
+CFBundleDisplayName = "Han Count";

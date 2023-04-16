@@ -36,12 +36,8 @@ A record is a dictionary with three entries:
 
 ## Todo
 
-- Add help messages of records. (`- [InfoRow setMessage:]`)
+- Add help messages for records. (`- [InfoRow setMessage:]`)
 - If the remaining count is less than 256, list and allow the user to copy a string consisting of all missing characters. (`CFCharacterSetCreateCoverageString(::)`)
-
-## Known issues
-
-- High plane characters may not work well on platforms where `CFIndex` is 32-bit-wide.
 
 ## Screenshots
 
